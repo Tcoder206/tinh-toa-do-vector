@@ -9,13 +9,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="font-family:sans-serif;">
-  <select id="select-vector"></select>
-	<form id="form-vector">
-		<input id="input-vector" placeholder="Điền tọa độ vector vào đây">
-		<button>Tính toán</button>
-	</form>
-  <div id="red-text"></div>
-  <div id="div-title">Result:</div><br>
-  <div id="div-field"></div>
+  <div class="main-container">
+    <div id="controller">
+      <div class="div-title">Controller:</div>
+      <div class="design-inside box-container">
+        <select id="select-vector"></select>
+        <form id="form-vector">
+          <input id="input-vector" placeholder="Điền tọa độ vector vào đây">
+          <br/><button>Tính toán</button>
+        </form>
+  <!--       <button>Reset</button> -->
+        <div id="red-text"></div>
+      </div>
+    </div>
+    <div>
+      <div class="div-title">Result:</div><br>
+      <div id="div-field" class="box-container"></div>
+    </div>
+  </div>
 </body>
 </html>

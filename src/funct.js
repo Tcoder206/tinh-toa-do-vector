@@ -6,7 +6,6 @@ export const createOption=(...options)=>{
 		opt.value = options[option]
 		opt.innerText = options[option]
     opt.classList.add('option-vector')
-    opt.dataset.option=option
 		select.appendChild(opt)
   }
 }

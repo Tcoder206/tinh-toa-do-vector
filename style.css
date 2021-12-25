@@ -1,7 +1,15 @@
 button,input,select{outline:none;font-size:100%;border-radius:5px;padding:5px 10px;}
-#input-vector{width:35%;}#select-vector{width:35%;}select,button{cursor:pointer;}
+#input-vector{width:85%;}#select-vector{width:95%;}select,button{cursor:pointer;}
 .error-css{border:2px solid red}#red-text{padding:3.5px;color:red;font-size:96%;}
-#div-title{display:inline-block;font-weight:bold;}
-#div-field{width:500px;height:500px;border:2px solid grey;border-radius:10px;overflow-y:auto;}
+.div-title{display:inline-block;font-weight:bold;}#div-field{overflow-y:auto;}
+.box-container{width:500px;height:500px;border:2px solid grey;border-radius:10px;}
 .timeRes{font-size:12px;font-weight:bold;color:grey;}.coordRes{font-size:18px;}
 .flex-style{padding:5px;display:flex;gap:10px;background:silver;border:1px solid grey}
+#controller{float:left;}.main-container{display:inline-flex;flex-direction:row;}
+.design-inside{padding:10px;height:480px;}
+@media only screen and (max-width:1036px){
+  .main-container{display:inline-flex;flex-direction:column;}
+  /* Tạm thời: */
+  .design-inside{padding:10px;height:100px;border:none;}
+  
+}
